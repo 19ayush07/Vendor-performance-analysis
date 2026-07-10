@@ -335,8 +335,8 @@ vendor-performance-analysis/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/vendor-performance-analysis.git
-cd vendor-performance-analysis
+git clone https://github.com/19ayush07/Vendor-performance-analysis.git
+cd Vendor-performance-analysis
 
 # 2. Create a virtual environment and install dependencies
 python -m venv venv
@@ -371,17 +371,4 @@ jupyter notebook notebooks/vendor_performance_analysis.ipynb
 - 🔔 Wire vendor-concentration and stock-turnover thresholds into automated Slack or email alerts.
 - 🧪 Extend hypothesis testing to a full ANOVA across multiple vendor tiers instead of a two-group split.
 
----
 
-## Author
-
-**Phillip**
-Applied AI / Data Engineering
-
-Built as an end-to-end demonstration of the full analytics lifecycle — relational data modeling, SQL-based ETL, exploratory analysis, statistical inference, and executive dashboarding.
-
-[GitHub](https://github.com/your-username) · [LinkedIn](https://linkedin.com/in/your-username)
-
----
-
-<p align="center">⭐ If this breakdown was useful, consider starring the repo!</p>
