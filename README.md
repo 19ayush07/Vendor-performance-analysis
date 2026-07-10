@@ -55,7 +55,7 @@ The project spans the full analytics lifecycle — relational data modeling in S
 ## Dashboard Preview
 
 <p align="center">
-  <img src="C:\Users\19ayu\vendor_invoice_data_analysis\images\dashboard.png" alt="Vendor Performance Dashboard" width="900"/>
+  <img src="images/dashboard.png" alt="Vendor Performance Dashboard" width="900"/>
 </p>
 
 The Power BI dashboard consolidates the entire analysis into a single executive view:
