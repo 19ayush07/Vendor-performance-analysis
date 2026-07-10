@@ -55,7 +55,7 @@ The project spans the full analytics lifecycle — relational data modeling in S
 ## Dashboard Preview
 
 <p align="center">
-  <img src="assets/dashboard.png" alt="Vendor Performance Dashboard" width="900"/>
+  <img src="C:\Users\19ayu\vendor_invoice_data_analysis\images\dashboard.png" alt="Vendor Performance Dashboard" width="900"/>
 </p>
 
 The Power BI dashboard consolidates the entire analysis into a single executive view:
@@ -130,7 +130,7 @@ The SQL layer (`get_vendor_summary.py`) does the heavy lifting with three CTEs �
 ## Exploratory Data Analysis
 
 <p align="center">
-  <img src="assets/correlation-heatmap.png" alt="Correlation heatmap of all numerical features" width="700"/>
+  <img src="C:\Users\19ayu\vendor_invoice_data_analysis\images\correlation-heatmap.png" alt="Correlation heatmap of all numerical features" width="700"/>
 </p>
 
 Key correlation findings that shaped the rest of the analysis:
@@ -144,15 +144,15 @@ Key correlation findings that shaped the rest of the analysis:
 <summary><b>📈 Additional EDA visuals — distributions, outliers, category counts</b></summary>
 <br/>
 
-<img src="assets/distribution-plots.png" alt="Distribution plots for all numerical columns"/>
+<img src="C:\Users\19ayu\vendor_invoice_data_analysis\images\distribution-plots.png" alt="Distribution plots for all numerical columns"/>
 
 *Distribution plots across all 16 numerical columns — most financial fields are heavily right-skewed, which is what motivated outlier-aware filtering before analysis.*
 
-<img src="assets/outlier-boxplots.png" alt="Outlier boxplots for all numerical columns"/>
+<img src="C:\Users\19ayu\vendor_invoice_data_analysis\images\outlier-boxplots.png" alt="Outlier boxplots for all numerical columns"/>
 
 *Boxplots confirming extreme outliers in `FreightCost`, `PurchasePrice`, and `TotalPurchaseDollars` — consistent with a small number of bulk or premium transactions dominating those fields.*
 
-<img src="assets/categorical-countplots.png" alt="Top 10 vendors and products by transaction count"/>
+<img src="C:\Users\19ayu\vendor_invoice_data_analysis\images\top10-vendors-brands.png" alt="Top 10 vendors and products by transaction count"/>
 
 *Transaction frequency by vendor and product. Volume leaders here aren't always revenue leaders — explored further below.*
 
@@ -167,7 +167,7 @@ Key correlation findings that shaped the rest of the analysis:
 Brands were flagged when they fell in the **bottom 15% of total sales** (≤ $560.30) while sitting in the **top 15% of profit margin** (≥ 64.97%) — high-margin products nobody is buying enough of.
 
 <p align="center">
-  <img src="assets/promo-pricing-opportunities.png" alt="Brands for promotional or pricing adjustments" width="650"/>
+  <img src="C:\Users\19ayu\vendor_invoice_data_analysis\images\promo-pricing-opportunities.png" alt="Brands for promotional or pricing adjustments" width="650"/>
 </p>
 
 **198 brands** met this criteria, including:
@@ -186,15 +186,15 @@ Brands were flagged when they fell in the **bottom 15% of total sales** (≤ $56
 
 <table>
 <tr>
-<td width="50%"><img src="assets/vendor-concentration-donut.png" alt="Top 10 vendor purchase concentration"/></td>
-<td width="50%"><img src="assets/pareto-vendor-contribution.png" alt="Pareto chart of vendor purchase contribution"/></td>
+<td width="50%"><img src="C:\Users\19ayu\vendor_invoice_data_analysis\images\vendor-concentration-donut.png" alt="Top 10 vendor purchase concentration"/></td>
+<td width="50%"><img src="C:\Users\19ayu\vendor_invoice_data_analysis\images\pareto-vendor-contribution.png"alt="Pareto chart of vendor purchase contribution"/></td>
 </tr>
 </table>
 
 The **top 10 of 119 vendors account for 65.69%** of all purchase dollars — with **Diageo North America Inc alone at 16.3%**. The remaining 109 vendors share just 34.31%.
 
 <p align="center">
-  <img src="assets/top10-vendors-brands.png" alt="Top 10 vendors and brands by sales" width="800"/>
+  <img src="C:\Users\19ayu\vendor_invoice_data_analysis\images\top10-vendors-brands.png" alt="Top 10 vendors and brands by sales" width="800"/>
 </p>
 
 > ⚠️ This concentration is efficient for negotiating bulk pricing, but it's also a **single-point-of-failure risk** — a supply disruption at a top-2 vendor would hit the business far harder than losing any vendor in the long tail.
@@ -202,7 +202,7 @@ The **top 10 of 119 vendors account for 65.69%** of all purchase dollars — wit
 ### 3 · Does Bulk Purchasing Actually Lower Unit Costs
 
 <p align="center">
-  <img src="assets/bulk-purchase-unit-price.png" alt="Impact of bulk purchasing on unit price" width="550"/>
+  <img src="C:\Users\19ayu\vendor_invoice_data_analysis\images\bulk-purchase-unit-price.png" alt="Impact of bulk purchasing on unit price" width="550"/>
 </p>
 
 | Order Size | Avg. Unit Purchase Price |
@@ -253,7 +253,7 @@ Vendors buying in the largest quantity tier pay **~72% less per unit** than thos
 ### 5 · Profit Margin: Top vs. Low-Performing Vendors
 
 <p align="center">
-  <img src="assets/profit-margin-confidence-interval.png" alt="Confidence interval comparison of profit margin, top vs low performing vendors" width="750"/>
+  <img src="C:\Users\19ayu\vendor_invoice_data_analysis\images\profit-margin-confidence-interval.png" alt="Confidence interval comparison of profit margin, top vs low performing vendors" width="750"/>
 </p>
 
 | Vendor Tier | Mean Profit Margin | 95% Confidence Interval |
