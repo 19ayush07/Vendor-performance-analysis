@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+
+# Database
+*.db
+
+# CSV files
+*.csv
+
+# Power BI
+*.pbix
+
+# Data folder
+vendor_data_da/
