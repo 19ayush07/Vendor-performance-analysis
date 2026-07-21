@@ -63,7 +63,7 @@ The Power BI dashboard consolidates the entire analysis into a single executive 
 | KPI | Value |
 |---|---|
 | 💰 Total Sales | **$441.41M** |
-| 🛒 Total Purchases | **$232.78M** |
+| 🛒 Total Purchases | **$307.34M** |
 | 📈 Gross Profit | **$134.07M** |
 | 📊 Overall Profit Margin | **39.38%** |
 | 📦 Capital Locked in Unsold Inventory | **$2.71M** |
